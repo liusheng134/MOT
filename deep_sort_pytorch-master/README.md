@@ -68,8 +68,11 @@ cd deep_sort/deep/checkpoint
 https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6 to this folder
 cd ../../../
 ```
+4.Download retinaface model
+https://pan.baidu.com/s/13SUi7UfL3lsYfp78Ndo5dg 提取码：t41f
 
-4. Compile nms module
+
+5. Compile nms module
 ```bash
 cd detector/YOLOv3/nms
 sh build.sh
@@ -79,7 +82,7 @@ cd ../../..
 Notice:
 If compiling failed, the simplist way is to **Upgrade your pytorch >= 1.1 and torchvision >= 0.3" and you can avoid the troublesome compiling problems which are most likely caused by either `gcc version too low` or `libraries missing`.
 
-5. Run demo
+6. Run demo
 ```
 usage: python yolov3_deepsort.py VIDEO_PATH
                                 [--help]
